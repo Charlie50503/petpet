@@ -1,7 +1,7 @@
 .\:hover-accent:hover {
-   color: #fff !important;
+   color: map-get($color, success-200) !important;
 }
 
 .\:hover-danger:hover {
-   color: #d5411a !important;
+   color: map-get($color, danger-800) !important;
 }

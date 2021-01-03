@@ -7,14 +7,14 @@ a {
 }
 
 body {
-   color: #772400;
+   color: map-get($color, warning-100);
    font-size: $base-font-size;
    font-family: 'custom Regular', sans-serif;
    line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6, p, span {
-   color: #772400;
+   color: map-get($color, warning-100);
    line-height: 1.5;
 }
 

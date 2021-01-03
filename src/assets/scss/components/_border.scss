@@ -1,11 +1,11 @@
 .my-border-1 {
-   border: 1px solid #000;
+   border: 1px solid map-get($color, dark-900);
 }
 
 .my-border-2 {
-   border: 2px solid #000;
+   border: 2px solid map-get($color, dark-900);
 }
 
 .my-border-secondary {
-   border-color: #dadfe3;
+   border-color: map-get($color, light-200);
 }

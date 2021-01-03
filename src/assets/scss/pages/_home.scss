@@ -43,7 +43,7 @@
 .reserve {
    &-banner {
       height: 120px;
-      border: 5px solid #fff;
+      border: 5px solid map-get($color, success-200);
 
       object-fit: cover;
       object-position: center;

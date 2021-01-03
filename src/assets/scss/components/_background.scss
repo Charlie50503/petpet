@@ -1,11 +1,11 @@
 .bgc-primary {
-   background-color: #f0ad25;
+   background-color: map-get($color, primary-100);
 }
 
 .bgc-secondary {
-   background-color: #fafafa;
+   background-color: map-get($color, success-300);
 }
 
 .bgc-white {
-   background-color: #fff !important;
+   background-color: map-get($color, success-200) !important;
 }

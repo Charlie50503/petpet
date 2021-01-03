@@ -2,14 +2,14 @@
    padding: 9px 28px;
 
 //    border-radius: 5px;
-   color: #fff;
+   color: map-get($color, success-200);
    font-size: 20px;
    line-height: 1.5;
 }
 
 .my-btn-danger {
-   border: 1px solid #ced4da;
-   background-color: #d54100;
+   border: 1px solid map-get($color, secondary-600);
+   background-color: map-get($color, danger-900);
 
    &:hover {
       background-color: #77240e;
@@ -17,12 +17,12 @@
 }
 
 .my-btn-danger-reverse {
-   border: 1px solid #d5411a;
-   background-color: #fff;
+   border: 1px solid map-get($color, danger-800);
+   background-color: map-get($color, success-200);
 
    &:hover {
-      border: 1px solid #fff;
-      background-color: #d5411a;
+      border: 1px solid map-get($color, success-200);
+      background-color: map-get($color, danger-800);
    }
 }
 
