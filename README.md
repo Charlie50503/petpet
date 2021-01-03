@@ -20,5 +20,7 @@ npm run build
 npm run lint
 ```
 
+### [DEMO](https://charlie50503.github.io/rwd-homework-path-8/#/)
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
