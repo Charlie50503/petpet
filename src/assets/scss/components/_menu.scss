@@ -8,5 +8,6 @@
    &-icon {
       color: map-get($color, primary-100);
       font-size: $fz-xl;
+      cursor: pointer;
    }
 }
