@@ -9,7 +9,7 @@
                 <router-link to="/Home" class="navbar-brand">
                   <h1 class="logo">PETPET</h1>
                 </router-link>
-                <div class="d-md-none menu" @click="toggleMeunSmBar()">
+                <div class="d-md-none menu" @click="toggleMenuSmBar()">
                   <span class="material-icons menu-icon">
                     menu
                   </span>
@@ -50,7 +50,7 @@
         </nav>
       </div>
       <div
-        v-if="showMeunSmBar"
+        v-if="showMenuSmBar"
         class="row d-md-none m-0 position-absolute menu-sm-bar w-100"
         v-animate-css="'zoomIn'"
       >
@@ -89,12 +89,12 @@ export default {
   props: {},
   data() {
     return {
-      showMeunSmBar: false,
+      showMenuSmBar: false,
     };
   },
   methods: {
-    toggleMeunSmBar() {
-      return (this.showMeunSmBar = !this.showMeunSmBar);
+    toggleMenuSmBar() {
+      return (this.showMenuSmBar = !this.showMenuSmBar);
     },
   },
 };
