@@ -1,0 +1,84 @@
+//base
+$scoped: 2px;
+$scoped-md: 4px;
+$scoped-xl: 8px;
+$base-font-size: 10px;
+//string
+$md: 'md';
+$xl: 'xl';
+//color
+$color: (
+  primary-100: #f0ad25,
+  dark-900: #000,
+  dark-300: #020,
+  dark-100: #029,
+  info-900: #212529,
+  info-800: #373a3c,
+  info-700: #495057,
+  info-600: #6c757d,
+  warning-200: #71210d,
+  warning-100: #772400,
+  secondary-900: #818a91,
+  secondary-800: #887676,
+  secondary-700: #888,
+  secondary-600: #ced4da,
+  danger-900: #d54100,
+  danger-800: #d5411a,
+  danger-700: #da3a1a,
+  light-200: #dadfe3,
+  light-100: #dee2e6,
+  muted-300: #f0ad25,
+  muted-200: #f6a436,
+  muted-100: #f8b52e,
+  success-500: #f0f0f0,
+  success-400: #f8f9fa,
+  success-300: #fafafa,
+  success-200: #fff,
+  body-100: #212529,
+);
+$fz-xl: 48px;
+$fz-md: 36px;
+$lh-sm: 21px;
+$lh-md: 54px;
+$lh-xl: 80px;
+$line-height-base: 1.5;
+// //properties
+// $properties: (
+//   'mt': margin-top,
+//   'mb': margin-bottom,
+//   'ml': margin-left,
+//   'mr': margin-right,
+//   'pt': padding-top,
+//   'pb': padding-bottom,
+//   'pl': padding-left,
+//   'pr': padding-right,
+//   // 'lh': line-height,
+//     // 'fz': font-size,,,,,,,,,,,,,,,,,,
+// );
+
+// //mobile
+// @each $key, $value in $properties {
+//    // Pad
+//    @include pad() {
+//       @for $i from 0 through 38 {
+//          .#{$key}-#{$md}-#{$i} {
+//             #{$value}: $i * $scoped-md;
+//          }
+//       }
+//    }
+
+// // PC
+//    @include pc() {
+//       @for $i from 0 through 38 {
+//          .#{$key}-#{$xl}-#{$i} {
+//             #{$value}: $i * $scoped-xl;
+//          }
+//       }
+//    }
+
+//    @for $i from 0 through 38 {
+//       .#{$key}-#{$i} {
+//          #{$value}: $i * $scoped;
+//       }
+//    }
+// }

@@ -1,0 +1,14 @@
+.footer-list {
+   &__title {
+      margin-bottom: 24px;
+      height: 55px;
+   }
+
+   &__item {
+      margin-bottom: 24px;
+
+      &:last-child {
+         margin-bottom: 0;
+      }
+   }
+}

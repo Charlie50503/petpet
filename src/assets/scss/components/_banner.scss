@@ -1,0 +1,33 @@
+.banner {
+   width: 100%;
+   height: 352px;
+   background-image: url(~@/assets/images/index-1.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+@include pad() {
+      margin: 0 auto;
+      margin-top: 104px;
+      max-width: 210px;
+      height: 288px;
+   }
+
+@include pc() {
+      margin-top: 0;
+      max-width: 530px;
+      height: 736px;
+   }
+}
+
+.banner-card {
+   width: 100%;
+
+@include pad() {
+      width: 390px;
+   }
+
+@include pc() {
+      width: 100%;
+   }
+}

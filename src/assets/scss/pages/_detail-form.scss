@@ -1,0 +1,79 @@
+.checkboxItem {
+   width: 72px;
+   height: 72px;
+
+@include pad() {
+      width: 128px;
+      height: 128px;
+   }
+}
+
+.form-wrap {
+   padding-top: 0;
+   padding-bottom: 0;
+
+@include pad() {
+      padding-top: 44px;
+      padding-bottom: 32px;
+   }
+}
+
+.reservation-status {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   padding: 8px 0;
+   width: 33.333333%;
+   border-top: 2px solid #da3a1a;
+
+   &::before {
+      position: absolute;
+      top: -5px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: red;
+      content: '　';
+   }
+}
+
+.form-modal-size {
+   // max-width: 345px;
+   @include pad() {
+      max-width: 690px;
+   }
+
+@include pc() {
+      max-width: 920px;
+   }
+}
+
+.form-modal-body {
+   // max-width: 345px;
+   padding-top: 1rem;
+   padding-right: 20px;
+   padding-bottom: 1rem;
+   padding-left: 20px;
+
+@include pad() {
+      padding-right: 60px;
+      padding-left: 60px;
+   }
+
+@include pc() {
+      padding-right: 30px;
+      padding-left: 30px;
+   }
+}
+
+.form-modal-success-wrap {
+   padding: 209px 0;
+
+@include pad() {
+      padding: 293px 0;
+   }
+
+@include pc() {
+      padding: 164px 0;
+   }
+}

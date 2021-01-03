@@ -1,0 +1,13 @@
+.footer {
+   padding-top: 8px;
+   padding-bottom: 24px;
+
+@include pad() {
+      padding-top: 60px;
+      padding-bottom: 28px;
+   }
+
+   &-content {
+      margin-bottom: 108px;
+   }
+}

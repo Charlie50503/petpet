@@ -1,0 +1,9 @@
+.my-w-md {
+   width: 160px !important;
+}
+
+.my-w-xl-100 {
+   @include pc() {
+      width: 100%;
+   }
+}

@@ -1,0 +1,19 @@
+.link-primary {
+   color: map-get($color, warning-100);
+   text-decoration: none;
+
+   &:hover {
+      color: map-get($color, warning-100);
+      text-decoration: none;
+   }
+}
+
+.link-accent {
+   color: map-get($color, success-200);
+   text-decoration: none;
+
+   &:hover {
+      color: map-get($color, success-200);
+      text-decoration: none;
+   }
+}

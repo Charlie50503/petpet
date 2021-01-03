@@ -1,0 +1,32 @@
+.view-img {
+   height: 282px;
+
+   object-fit: cover;
+   object-position: center;
+
+@include pad() {
+      height: 271px;
+   }
+
+@include pc() {
+      height: 440px;
+   }
+}
+
+.item-img {
+   width: 80px;
+   height: 80px;
+
+   object-fit: cover;
+   object-position: center;
+
+@include pad() {
+      width: 60px;
+      height: 60px;
+   }
+
+@include pc() {
+      width: 90px;
+      height: 90px;
+   }
+}

@@ -1,0 +1,54 @@
+.my-btn {
+   padding: 9px 28px;
+
+//    border-radius: 5px;
+   color: #fff;
+   font-size: 20px;
+   line-height: 1.5;
+}
+
+.my-btn-danger {
+   border: 1px solid #ced4da;
+   background-color: #d54100;
+
+   &:hover {
+      background-color: #77240e;
+   }
+}
+
+.my-btn-danger-reverse {
+   border: 1px solid #d5411a;
+   background-color: #fff;
+
+   &:hover {
+      border: 1px solid #fff;
+      background-color: #d5411a;
+   }
+}
+
+.my-btn-second {
+   padding: 12px 64px;
+}
+
+.my-custom-btn {
+   width: 44px;
+   height: 44px;
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+.my-custom-btn-danger {
+   width: 44px;
+   height: 44px;
+}
+
+.vertical-scroll-btn {
+   position: fixed;
+   right: 30px;
+   bottom: 200px;
+}
+
+.logo-btn {
+   padding-top: 4px;
+   padding-bottom: 4px;
+}

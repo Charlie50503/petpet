@@ -1,0 +1,43 @@
+.member-wrap {
+   padding-top: 64px;
+   padding-bottom: 83px;
+
+@include pad() {
+      padding-top: 270px;
+      padding-bottom: 330px;
+   }
+
+@include pc() {
+      padding-top: 157px;
+      padding-bottom: 217px;
+   }
+}
+
+.member-photo {
+   width: 75px;
+   height: 75px;
+
+   object-fit: cover;
+   object-position: center;
+
+@include pad() {
+      width: 95px;
+      height: 95px;
+   }
+}
+
+.member-title {
+   margin-bottom: 40px;
+
+@include pad() {
+      margin-bottom: 30px;
+   }
+}
+
+.member-info {
+   padding-bottom: 60px;
+
+@include pad() {
+      padding-bottom: 0;
+   }
+}

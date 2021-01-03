@@ -1,0 +1,7 @@
+.position-sticky-xl {
+   @include pc() {
+      position: sticky !important;
+      top: 0;
+      z-index: 1020;
+   }
+}
